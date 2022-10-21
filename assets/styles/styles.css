@@ -1,0 +1,29 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.navbar a {
+line-height: 40px;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.imagen {
+    height: 5rem;
+    width: 10rem;
+}
+
+.contenedor-lista {
+    float: left;
+    text-align: left;
+    margin-right: 600px;
+}
+
