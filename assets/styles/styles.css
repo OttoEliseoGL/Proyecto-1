@@ -16,7 +16,7 @@ text-decoration: none;
 font-weight: bold;
 }
 
-.imagen {
+.imagen-logo {
     height: 5rem;
     width: 10rem;
 }
@@ -27,3 +27,16 @@ font-weight: bold;
     margin-right: 600px;
 }
 
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #E53144;
+}
+
+.imagen {
+    height: 15rem;
+    text-align: center;
+}
