@@ -41,3 +41,63 @@ button {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.tarjeta {
+    background: white;
+    height: 20rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 15px 5px #000000;
+    color: #000000;
+}
+
+.raya-negra {
+    font-style: bold;   
+}
+
+@media screen and (max-width: 1400px) {
+    .tarjeta {
+        background: white;
+        height: 30rem;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 15px 5px #000000;
+        color: #000000;
+    }
+    }
+
+@media screen and (max-width: 800px) {
+    .tarjeta {
+        background: white;
+        height: 42rem;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 15px 5px #000000;
+        color: #000000;
+    }
+    }
+
+@media screen and (max-width: 613px) {
+    .tarjeta {
+        background: white;
+        height: 47rem;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 15px 5px #000000;
+        color: #000000;
+    }
+    }
+
+    .precio {
+        font-size: xx-large;
+        font-style: bold;
+    }
